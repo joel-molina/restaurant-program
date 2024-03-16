@@ -1,0 +1,19 @@
+# Needed for google tests
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Names the executable
+project(meatMob)
+
+# Generate unit tests
+enable_testing()
+
+# Add each subdirectory
+add_subdirectory(customer)
+add_subdirectory(drink)
+add_subdirectory(food)
+add_subdirectory(helperFunctions)
+add_subdirectory(main)
+add_subdirectory(menuItem)
+add_subdirectory(tests)
+add_subdirectory(dynamicArray)
